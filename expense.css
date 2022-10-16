@@ -1,0 +1,57 @@
+.name{
+    width: 75%;
+}
+
+.first{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.second{
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+h4{
+    color: green;
+}
+
+h5{
+    color: red;
+}
+
+.two{
+    display: flex;
+    width: 75%;
+    padding: 10px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0 auto;
+}
+
+button{
+    background-color: green;
+    padding: 7px;
+}
+
+.one{
+    padding-bottom: 10px;
+}
+
+table, .sinput{
+    width: 75%;
+    text-align: center;
+    margin: auto;
+} 
+
+#butoon{
+    color: white;
+    padding: 4px;
+
+}
+
+
+
+

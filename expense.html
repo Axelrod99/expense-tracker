@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense</title>
+    <link rel="stylesheet" href="expense.css">
+</head>
+<body>
+    <div class="first">
+        <h1>Expense Tracker</h1>
+        <h4>Add A New Item</h4>
+
+        <h5 class="msg"></h5>
+        <div class="second">
+            <div class="one">Name: <input class="name" id="name" type="text" placeholder="where was the expense made"></div>
+
+            <div class="two">
+                <div>Date: <input type="date" class="date" id="date"></div>
+                <div>Amount: <input type="number" class="date" id="amount"></div>
+            </div>
+
+            <button onclick="expenses(this)">Add Expense</button>
+        </div>
+    </div>
+
+    <table border="1" id="mytable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Date</th>
+                <th>Amount</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table>
+
+    <script src="./expense.js"></script>
+
+    
+</body>
+</html>
